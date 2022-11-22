@@ -34,7 +34,7 @@ namespace Task1
 
 
             string[] cars = {"BMW", "OPEL", "KIA"};
-            Console.WriteLine(cars);
+            Console.WriteLine(cars[0] + " " + cars[1] + " " + cars[2]);
 
             Console.WriteLine("Enter firstname:");
             string firstname = Console.ReadLine();
@@ -45,9 +45,9 @@ namespace Task1
             Console.WriteLine(firstname+" " +lastname + " " +birth);
 
             int[] num = { 1, 2, 3, 4, 5, 6, 7, 8, 9 };
-            Console.WriteLine(num);
-
-
+            Console.WriteLine(num[0]);
+            Console.WriteLine(num[1]);
+            Console.WriteLine(num[2]);
 
 
             int[] sum = { 2, 5, 8 };
