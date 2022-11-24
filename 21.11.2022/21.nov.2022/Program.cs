@@ -98,8 +98,9 @@ namespace _21.nov._2022
             double mile =  kilo/ 1.6;
             Console.WriteLine("distance in mile:" + mile);
             //////////////////////////////////////////////////////////////
-            Console.WriteLine("inter time:");
+            Console.WriteLine("inter time in hours:");
             int hours = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("inter time in minutes:");
             int min = Convert.ToInt32(Console.ReadLine());
             int hourmin = hours * 60;
             Console.WriteLine(" time in minutes:" + Convert.ToInt32(hourmin + min)  );
@@ -108,7 +109,7 @@ namespace _21.nov._2022
             Console.WriteLine("inter time in min:");
             int timeinmin = Convert.ToInt32(Console.ReadLine());
             double retur = timeinmin / 60;
-            double retmin= retur% 60;
+            double retmin= timeinmin % 60;
             Console.WriteLine(" time is:" + (retur + " hours"+ " " +retmin + " min"));
             ///////////////////////////////////////////////////// 
             string[] arra = { "MohaMmad", "abdallah", " saleh", "mohammad", " sawalha" };

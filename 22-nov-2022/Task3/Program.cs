@@ -58,14 +58,11 @@ namespace Task3
             int sum2 = 0;
             for (int i=0; i <100; i++)
             {
-               
+
                 if ((i % 2 != 0))
                 {
                     sum2 += i;
                 }
-              
-                
-
             }
             Console.WriteLine("the sum of odd numbers= " + sum2);
             ///////////////////////////////////////////////////////////////////
@@ -84,17 +81,22 @@ namespace Task3
             }
             //////////////////////////////////////////////////////////////////
             int x = 1;
+
             for (int i = 0; i < 5; i++)
             {
-
+                for (int j = 4 - i; j > 0; j--)
+                {
+                    Console.Write(" ");
+                }
 
                 for (int r = 0; r < i; r++)
                 {
-                    Console.Write(x);
+
+                    Console.Write(x + " ");
                     x += 1;
 
                 }
-               
+
                 Console.WriteLine(" ");
 
             }
