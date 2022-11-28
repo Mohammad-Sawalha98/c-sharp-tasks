@@ -1,0 +1,8 @@
+C:\Users\y\c-sharp-tasks\OOP-Tasks\27-nov\oop-task1\bin\Debug\oop-task1.exe.config
+C:\Users\y\c-sharp-tasks\OOP-Tasks\27-nov\oop-task1\bin\Debug\oop-task1.exe
+C:\Users\y\c-sharp-tasks\OOP-Tasks\27-nov\oop-task1\bin\Debug\oop-task1.pdb
+C:\Users\y\c-sharp-tasks\OOP-Tasks\27-nov\oop-task1\obj\Debug\oop-task1.csproj.AssemblyReference.cache
+C:\Users\y\c-sharp-tasks\OOP-Tasks\27-nov\oop-task1\obj\Debug\oop-task1.csproj.SuggestedBindingRedirects.cache
+C:\Users\y\c-sharp-tasks\OOP-Tasks\27-nov\oop-task1\obj\Debug\oop-task1.csproj.CoreCompileInputs.cache
+C:\Users\y\c-sharp-tasks\OOP-Tasks\27-nov\oop-task1\obj\Debug\oop-task1.exe
+C:\Users\y\c-sharp-tasks\OOP-Tasks\27-nov\oop-task1\obj\Debug\oop-task1.pdb

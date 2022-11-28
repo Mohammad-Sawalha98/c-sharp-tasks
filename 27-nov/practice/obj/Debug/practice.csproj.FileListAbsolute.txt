@@ -1,0 +1,8 @@
+C:\Users\y\c-sharp-tasks\27-nov\practice\bin\Debug\practice.exe.config
+C:\Users\y\c-sharp-tasks\27-nov\practice\bin\Debug\practice.exe
+C:\Users\y\c-sharp-tasks\27-nov\practice\bin\Debug\practice.pdb
+C:\Users\y\c-sharp-tasks\27-nov\practice\obj\Debug\practice.csproj.AssemblyReference.cache
+C:\Users\y\c-sharp-tasks\27-nov\practice\obj\Debug\practice.csproj.SuggestedBindingRedirects.cache
+C:\Users\y\c-sharp-tasks\27-nov\practice\obj\Debug\practice.csproj.CoreCompileInputs.cache
+C:\Users\y\c-sharp-tasks\27-nov\practice\obj\Debug\practice.exe
+C:\Users\y\c-sharp-tasks\27-nov\practice\obj\Debug\practice.pdb

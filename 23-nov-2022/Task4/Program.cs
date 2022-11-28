@@ -22,6 +22,7 @@ namespace Task4
             int avg = sum / 10;
             Console.WriteLine("The avg of 10 numbers is :" + avg);
         }
+
         static void cube()
         {
             Console.WriteLine("inter a number to cube it:");
@@ -31,6 +32,7 @@ namespace Task4
                 Console.WriteLine("Number is :" + i + " and cube of the" + i + " is :" + (i * i * i));
             }
         }
+
         static void getyears(int[] year)
         {
 
@@ -55,7 +57,6 @@ namespace Task4
 
         }
 
-
         static void legs()
         {
             Console.WriteLine("how many chickens do you have?");
@@ -72,6 +73,8 @@ namespace Task4
         }
 
 
+
+
         static void login(string[] one, string[] tow)
         {
             Console.WriteLine("please inter your name:");
@@ -79,27 +82,27 @@ namespace Task4
 
             Console.WriteLine("please inter your password:");
             string password = Console.ReadLine();
-
+            bool result = false;
             for (int i = 0; i < one.Length; i++)
             {
                 if (name == one[i] && password == tow[i])
                 {
-                    Console.WriteLine("pass");
+                     result = true;
+                    
                 }
-                else
-                {
-                    Console.WriteLine("failed");
-                }
-
-
+            }
+        
+            if (result == true)
+            {
+                Console.WriteLine("pass");
+            }
+            else
+            {
+                Console.WriteLine("faield");
             }
 
+
         }
-
-
-
-
-
 
 
         static void power()
@@ -114,29 +117,30 @@ namespace Task4
         {
             Console.WriteLine("inter a year between 1900 and 2025:");
             int y=Convert.ToInt32(Console.ReadLine());
-            int leapyear = 1900;
-
-            int[] leapyears = { };
-            for (int i = 0; i < 25; i++)
+            if(y>1900 &&y<2024)
             {
-                leapyears[i] = leapyear;
-                leapyear += 4;
-                if (y == leapyear)
+                if (y%4==0)
                 {
-                    Console.WriteLine(y + " is a leap year");
+                    Console.WriteLine($"{y} is a leap yaer");
                 }
+                else
+                {
+                    Console.WriteLine($"{y} is not a leap year");
+                }
+
             }
+
+           
            
         }
 
 
-
-
         static void prime()
         {
+            // اذا كانت مجموع ارقام العدد ما بتقسم على (3) بكون برايم
             Console.WriteLine("inter a number:");
             int pri=Convert.ToInt32(Console.ReadLine());
-            if(pri%2==0 || pri % 3 == 0)
+            if ((pri % 2 == 0 || pri % 3 == 0 || pri % 5 == 0 || pri%7==0) && (pri != 2 && pri != 3 && pri != 5 && pri != 7))
             {
                 Console.WriteLine(pri + " is not a prime number");
 
@@ -191,7 +195,7 @@ namespace Task4
             //Task6
             //string[] names = { "ali", "mohammad", "ahmad" };
             //string[] passwords = { "12345", "1234", "123" };
-            //login(names , passwords);
+            //login(names, passwords);
 
             //////////////////////////////////////////////////
             //Task7
@@ -200,12 +204,12 @@ namespace Task4
 
             //////////////////////////////////////////////////
             //Task8
-            leap();
+            //leap();
 
 
             //////////////////////////////////////////////////
             //Task9
-            //prime();
+            prime();
 
 
             /////////////////////////////////////////////////

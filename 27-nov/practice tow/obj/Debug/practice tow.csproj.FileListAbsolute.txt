@@ -1,0 +1,8 @@
+C:\Users\y\c-sharp-tasks\27-nov\practice tow\bin\Debug\practice tow.exe.config
+C:\Users\y\c-sharp-tasks\27-nov\practice tow\bin\Debug\practice tow.exe
+C:\Users\y\c-sharp-tasks\27-nov\practice tow\bin\Debug\practice tow.pdb
+C:\Users\y\c-sharp-tasks\27-nov\practice tow\obj\Debug\practice tow.csproj.AssemblyReference.cache
+C:\Users\y\c-sharp-tasks\27-nov\practice tow\obj\Debug\practice tow.csproj.SuggestedBindingRedirects.cache
+C:\Users\y\c-sharp-tasks\27-nov\practice tow\obj\Debug\practice tow.csproj.CoreCompileInputs.cache
+C:\Users\y\c-sharp-tasks\27-nov\practice tow\obj\Debug\practice tow.exe
+C:\Users\y\c-sharp-tasks\27-nov\practice tow\obj\Debug\practice tow.pdb
