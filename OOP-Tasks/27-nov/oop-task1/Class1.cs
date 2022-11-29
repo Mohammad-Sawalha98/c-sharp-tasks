@@ -8,7 +8,7 @@ namespace oop_task1
 {
     public class info
     {
-        private string name;
+        public string name;
         private string gender;
         private string email;
         private string phone;
@@ -42,7 +42,7 @@ namespace oop_task1
 
             if(infoage>60 || infoage < 18)
             {
-                Console.WriteLine("your age is not sutable");
+                Console.WriteLine("your age is unvalid");
             }
             else
             {

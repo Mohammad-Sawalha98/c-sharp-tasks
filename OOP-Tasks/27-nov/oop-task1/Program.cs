@@ -10,7 +10,7 @@ namespace oop_task1
     {
         static void Main(string[] args)
         {
-            info personal = new info("ali", "male", "ali@gmail.com", "0797620295", 25, 998102404);
+            info personal = new info("ali", "male", "ali@gmail.com", "0007620295", 70, 998102404);
             personal.infos();
         }
     }
