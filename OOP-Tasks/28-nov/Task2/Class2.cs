@@ -19,7 +19,7 @@ namespace Task2
         public string color { get; set; }
         
         private bool   enginState  = false;
-
+        //public Car() { }
         public Car(string make, int year, string type, int price, string model, string palletNo, string color)
         {
             this.make = make;

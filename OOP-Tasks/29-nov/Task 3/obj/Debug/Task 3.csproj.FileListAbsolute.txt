@@ -1,0 +1,8 @@
+C:\Users\y\c-sharp-tasks\OOP-Tasks\29-nov\Task 3\bin\Debug\Task 3.exe.config
+C:\Users\y\c-sharp-tasks\OOP-Tasks\29-nov\Task 3\bin\Debug\Task 3.exe
+C:\Users\y\c-sharp-tasks\OOP-Tasks\29-nov\Task 3\bin\Debug\Task 3.pdb
+C:\Users\y\c-sharp-tasks\OOP-Tasks\29-nov\Task 3\obj\Debug\Task 3.csproj.AssemblyReference.cache
+C:\Users\y\c-sharp-tasks\OOP-Tasks\29-nov\Task 3\obj\Debug\Task 3.csproj.SuggestedBindingRedirects.cache
+C:\Users\y\c-sharp-tasks\OOP-Tasks\29-nov\Task 3\obj\Debug\Task 3.csproj.CoreCompileInputs.cache
+C:\Users\y\c-sharp-tasks\OOP-Tasks\29-nov\Task 3\obj\Debug\Task 3.exe
+C:\Users\y\c-sharp-tasks\OOP-Tasks\29-nov\Task 3\obj\Debug\Task 3.pdb
