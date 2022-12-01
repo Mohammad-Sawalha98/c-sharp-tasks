@@ -13,7 +13,7 @@ namespace Task_3
         public string ID { get; set; }
         public DateTime dateOfbairth { get; set; }
 
-        public Employee(string name, string ID, int day, int month, int year)
+        public Employee(string name, string ID, DateTime )
         {
             this.name = name;
             this.ID = ID;
@@ -28,6 +28,7 @@ namespace Task_3
 
         public void calculateAge()
         {
+
 
             DateTime now = DateTime.Now; TimeSpan value = now.Subtract(dateOfbairth);
 

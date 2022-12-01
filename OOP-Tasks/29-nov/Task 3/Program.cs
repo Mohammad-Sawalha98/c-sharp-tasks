@@ -14,7 +14,8 @@ namespace Task_3
             //employeeInfo.employeeDetails();
             //employeeInfo.calculateAge(10,5,1998);
 
-            Manager managerInfo = new Manager("Mohammad",  "123456789", 10 , 12 , 1998);
+            DateTime birth =new  DateTime(2000, 1, 1);
+            Manager managerInfo = new Manager("Mohammad",  "123456789", bir);
             managerInfo.employeeDetails();
             managerInfo.calculateAge();
             
